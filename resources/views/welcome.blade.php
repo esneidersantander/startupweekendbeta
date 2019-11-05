@@ -93,23 +93,23 @@
     </div>
     <span class="tri-down"></span>
     <div class="ts-tray-container" >
-      <a href="" target="_blank">
-        <img class="logo-225" src="/images/logos/ts-logo-color.png">
+      <a href="http://www.techstars.com" target="_blank">
+        <img class="logo-225" src="/public/images/ts-logo-color.png">
       </a>
       Techstars is a global network that helps entrepeneurs succeed.
       <hr>
       <a href="" target="_blank">
-        <img class="logo-260" src="/images/logos/sd_lockup_logo.svg">
+        <img class="logo-260" src="/public/images/sd_lockup_logo.svg">
       </a>
       A curated source for everything entrepreneurial in your community.
       <hr>
       <a href="" target="_blank">
-        <img class="logo-260" src="/images/logos/sw_lockup_logo.svg">
+        <img class="logo-260" src="/public/images/sw_lockup_logo.svg">
       </a>
       Startup Week: Celebrating entrepreneurs is communities across the globe.
       <hr>
       <a href="" target="_blank">
-        <img class="logo-260" src="/images/logos/sw-logo-black.png">
+        <img class="logo-260" src="/public/images/sw-logo-black.png">
       </a>
       Start building your future in just 54 hours. Learn, Network, Startup.
       <hr>
@@ -267,7 +267,7 @@
             <meta itemprop="startDate" content="2018-11-16T15:00:00.000Z">
             <meta itemprop="name" content="Startup Weekend Manabí Agrotech">
             <span class="header-medium">
-              Friday, November 16 - 18, 2018
+              Friday, November 16 - 18, 2019
             </span>
           </h3>
           <br>
@@ -304,15 +304,14 @@
     <div class="row l-background-white" id="event-overview">
 
       <div
-        class="full-width page-hero sw-page-hero"
+        class="full-width page-hero sw-page-hero page-custom-bg-banner"
         data-bg-load
-        data-src=""
-        >
+        data-src="/images/program-header-bg.png" style="background-image: url('/images/program-header-bg.png');">
         <div class="large-12 large-offset-1 columns page-hero__copy">
           <h1 class="header-medium sw-page-hero__heading">
             Startup Weekend Manabí Agrotech
           </h1>
-          <h1 class="header-medium sw-page-hero__date">Friday, November 16 - 18, 2018</h1>
+          <h1 class="header-medium sw-page-hero__date">Friday, November 16 - 18, 2019</h1>
         </div>
       </div>
 
@@ -379,7 +378,7 @@
           </div>
           <div class="large-8 columns">
             <h3 class="no-margin-top event-map__date">
-              Friday, November 16 - 18, 2018
+              Friday, November 16 - 18, 2019
               <br><span class="header-medium">
               
                 Event starts at 3:00 pm
@@ -482,10 +481,7 @@
         </div>
       </div>
       
-<div class='event-schedule-container' data-section='accordion'>
-  
-  
-    
+<div class='event-schedule-container' data-section='accordion' data-section-small-style="true">
     <section class="ac-active">
       <div class="full-width" data-section-title>
         <div class="row">
@@ -493,6 +489,7 @@
             <h2 >Friday November 16th</h2>
           </div>
           <div class="schedule-collapser">
+
           </div>
         </div>
       </div>
