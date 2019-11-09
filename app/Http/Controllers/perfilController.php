@@ -53,9 +53,9 @@ class perfilController extends Controller
 
 		//$events = App\Evento::all();
 		
-		$eventosdia1 = App\Evento::all()->where('dia','2019-10-16');
-		$eventosdia2 = App\Evento::all()->where('dia','2019-10-17');
-		$eventosdia3 = App\Evento::all()->where('dia','2019-10-18');
+		$eventosdia1 = App\Evento::all()->where('dia','2019-11-16');
+		$eventosdia2 = App\Evento::all()->where('dia','2019-11-17');
+		$eventosdia3 = App\Evento::all()->where('dia','2019-11-18');
 		$mentores= App\Mentor::all();
 		$sponsores= App\Sponsor::all();
 		$organizadores= App\Organizador::all();

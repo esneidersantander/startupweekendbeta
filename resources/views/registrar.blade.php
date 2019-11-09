@@ -340,7 +340,6 @@
                 <div class="col-sm-10">
                   <select  class="combobox form-control" name="sexo">
                       <option value="" selected="selected">Seleccionar Sexo</option>
-                      
                       <option value="1">Mujer</option>
                       <option value="2">Hombre</option>
                       
@@ -361,12 +360,20 @@
                       <option value="6">XXL</option>
                       
                   </select>
-              </div>
+                </div>
             </div>
             <div class="form-group row">
                 <label for="inputPassword" class="col-sm-2 col-form-label">¿Por qué decidiste participar?:</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" name="decidisteparticipar" placeholder="¿Por qué decidiste participar?">
+                <select  class="combobox form-control" name="decidisteparticipar">
+                      <option value="" selected="selected">Elige</option>
+                      <option value="1">Construir una startup</option>
+                      <option value="2">Conocer a un cofundador</option>
+                      <option value="3">Educación de emprendimiento</option>
+                      <option value="4">Networking - conocer a mas personas</option>
+                      <option value="5">Reclutar talento (desarrollador@s, diseñador@s)</option>
+                      <option value="6">Aprender una nueva habilidad</option>
+                  </select>
               </div>
             </div>
             <div class="form-group row">
