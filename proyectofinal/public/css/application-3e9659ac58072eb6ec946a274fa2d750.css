@@ -13348,11 +13348,13 @@ body[data-region=global] .blog-post.grid-item div > a:hover .blog-post__details 
     width: 5.125em; }
   #leaders-scroller .leader-scroll-item p {
     color: #959595; }
-  #leaders-scroller .leader-scroll-item h5 {
-    font-size: 14px;
+  #leaders-scroller .leader-scroll-item h2 {
+    font-size: 12px;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: normal;
-    color: #666666; }
+    color: #666666;
+    line-height: 20px;
+     }
 #leaders-scroller ul ~ p {
   color: #959595;
   line-height: 20px; }

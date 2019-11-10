@@ -13348,6 +13348,9 @@ body[data-region=global] .blog-post.grid-item div > a:hover .blog-post__details 
     width: 5.125em; }
   #leaders-scroller .leader-scroll-item p {
     color: #959595; }
+
+   #leaders-scroller .leader-scroll-item h2 {
+    font:12px; }
   #leaders-scroller .leader-scroll-item h5 {
     font-size: 14px;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;

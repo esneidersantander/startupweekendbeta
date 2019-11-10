@@ -9,6 +9,6 @@ class Sponsor extends Model
     protected $table = 'sponsor';
     public $timestamps= false;
     protected $fillable = [
-        'tipo','imagen','sitioweb',
+        'nivel','imagen','sitioweb',
     ];
 }

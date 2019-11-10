@@ -94,22 +94,22 @@
     <span class="tri-down"></span>
     <div class="ts-tray-container" >
       <a href="http://www.techstars.com" target="_blank">
-        <img class="logo-225" src="/public/images/ts-logo-color.png">
+        <img class="logo-225" src="/images/ts-logo-color.png">
       </a>
       Techstars is a global network that helps entrepeneurs succeed.
       <hr>
       <a href="" target="_blank">
-        <img class="logo-260" src="/public/images/sd_lockup_logo.svg">
+        <img class="logo-260" src="/images/sd_lockup_logo.svg">
       </a>
       A curated source for everything entrepreneurial in your community.
       <hr>
       <a href="" target="_blank">
-        <img class="logo-260" src="/public/images/sw_lockup_logo.svg">
+        <img class="logo-260" src="/images/sw_lockup_logo.svg">
       </a>
       Startup Week: Celebrating entrepreneurs is communities across the globe.
       <hr>
       <a href="" target="_blank">
-        <img class="logo-260" src="/public/images/sw-logo-black.png">
+        <img class="logo-260" src="/images/sw-logo-black.png">
       </a>
       Start building your future in just 54 hours. Learn, Network, Startup.
       <hr>
@@ -317,20 +317,7 @@
 
       <div class="large-12 large-offset-1 columns sw-event-page">
         <br>
-
-        
-        
-        
-        
-        
         <ul class="breadcrumbs">
-  
-  
-
-  
-  
-  
-
   <li class="unavailable">
   
     <a href="" class="breadcrumb-item">Calceta, Manabí</a>
@@ -634,17 +621,17 @@
     </a>
     @endif
     @if($item->instagram !=null)
-    <a href="{{$item->instagram}}" target="_blank"">
+    <a href="{{$item->instagram}}" target="_blank">
       <i class="fab fa-instagram"></i>
     </a>
     @endif
     @if($item->email !=null)
-    <a href="{{$item->email}}" target="_blank"">
+    <a href="{{$item->email}}" target="_blank">
       <i class="fas fa-envelope">&nbsp;</i>
     </a>
     @endif
     @if($item->sitioweb !=null)
-    <a href="{{$item->sitioweb}}" target="_blank"">
+    <a href="{{$item->sitioweb}}" target="_blank">
       <i class="fas fa-home"></i>
     </a>
     @endif
@@ -656,10 +643,6 @@
 </div>
 <br>
 @endforeach()
-            
-      
-
-
             <hr class="spacer--gutter">
 
             <div class="row" id="event-sponsors">
@@ -724,7 +707,7 @@ Es una Institución de Educación Superior (IES), que busca la formación integr
                   <ul class="large-block-grid-3">
                     
                     @foreach($sponsores as $item)
-                    @if($item->tipo='gold')                      
+                    @if($item->nivel='gold')                      
                       <li class="img-wrapper-legacy scale-x">
                         <a href="{{$item->sitioweb}}" target="_blank">
                           <img src= "{{$item->imagen}}" class="img-responsive">
@@ -747,7 +730,7 @@ Es una Institución de Educación Superior (IES), que busca la formación integr
                 <div class="large-15 columns">
                   <ul class="large-block-grid-3">  
                     @foreach($sponsores as $item)
-                      @if($item->tipo='silver')
+                      @if($item->nivel='silver')
                       <li class="img-wrapper-legacy scale-x">
                         <a href="{{$item->sitioweb}}" target="_blank">
                           <img src="{{$item->foto}}" class="img-responsive">
@@ -774,7 +757,6 @@ Es una Institución de Educación Superior (IES), que busca la formación integr
               <div class="large-15 columns">
                 <p>
                   Techstars Startup Weekend Calceta, Manabí is 100% led by volunteer community leaders.
-
                   <br>
                   <a href="http://startupweekend.org/organizer/">
                     Learn how to get involved here
@@ -1016,13 +998,13 @@ Es una Institución de Educación Superior (IES), que busca la formación integr
                 
                 <li>
                   <a href="http://www.go.co/" target="_blank" title=".CO">
-                    <img src="/images/logos/partners/co.png" />
+                    <img src="/images/logos/co.png" />
                   </a>
                 </li>
                 
                 <li>
                   <a href="" target="_blank" title="Google for Startups">
-                    <img src="/images/logos/partners/GoogleForStartupsLarge.png" />
+                    <img src="/images/logos/GoogleForStartupsLarge.png" />
                   </a>
                 </li>
                 
