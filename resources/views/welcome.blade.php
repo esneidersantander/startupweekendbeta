@@ -98,22 +98,22 @@
       </a>
       Techstars is a global network that helps entrepeneurs succeed.
       <hr>
-      <a href="" target="_blank">
+      <a href="https://www.startupdigest.com" target="_blank">
         <img class="logo-260" src="/images/sd_lockup_logo.svg">
       </a>
       A curated source for everything entrepreneurial in your community.
       <hr>
-      <a href="" target="_blank">
+      <a href="https://startupweek.co/" target="_blank">
         <img class="logo-260" src="/images/sw_lockup_logo.svg">
       </a>
       Startup Week: Celebrating entrepreneurs is communities across the globe.
       <hr>
-      <a href="" target="_blank">
+      <a href="https://startupweekend.org/" target="_blank">
         <img class="logo-260" src="/images/sw-logo-black.png">
       </a>
       Start building your future in just 54 hours. Learn, Network, Startup.
       <hr>
-      <a class="learn-more" href="" target="_blank">
+      <a class="learn-more" href="https://www.techstars.com/" target="_blank">
         Learn More
       </a>
     </div>
@@ -170,7 +170,7 @@
 
 
 <li class='link link-startup-weekend/events no-tap up-theme-base-border-left-color'>
-  <a href="" class="no-tap">Events</a>
+  <a href="http://communities.techstars.com/ecuador/quito/startup-weekend/events" class="no-tap">Events</a>
   
 
 </li>
@@ -182,7 +182,7 @@
 
 
 <li class='link link-startup-weekend/organize no-tap up-theme-base-border-left-color'>
-  <a href="" class="no-tap">Organize</a>
+  <a href="https://startupweekend.org/organizers/application" class="no-tap">Organize</a>
   
 
 </li>
@@ -193,7 +193,7 @@
 
 
 
-<li class='link link-programs no-tap up-theme-base-border-left-color'>
+<!-- <li class='link link-programs no-tap up-theme-base-border-left-color'>
   <a href="" class="no-tap">Programs</a>
   
   <span class='submenu-pip show-for-small'></span>
@@ -217,7 +217,7 @@
   </ul>
 
 
-</li>
+</li> -->
 
     
       
@@ -226,9 +226,7 @@
 
 
 <li class='link link-startup-weekend/about no-tap up-theme-base-border-left-color'>
-  <a href="" class="no-tap">About</a>
-  
-
+  <a href="{{ url('/about') }}" class="no-tap">About</a>
 </li>
 
     
@@ -287,10 +285,8 @@
           
         </ol>
         
-          <a href="{{ url('/registrar') }}" class="button radius" data-ga-event='{"category": "Startup Weekend CTA", "action": "Register", "label": "SW Details - Sidebar Button"}'>
-            
-              Buy Tickets
-            
+          <a href="{{ url('/registrar') }}" class="button radius" data-ga-event='{"category": "Startup Weekend CTA", "action": "Register", "label": "SW Details - Sidebar Button"}'> 
+            Registrarse
           </a>
         
         <br>
@@ -386,7 +382,7 @@
             
               <a href="{{ url('/registrar') }}" class="button radius" data-ga-event='{"category": "Startup Weekend CTA", "action": "Register", "label": Startup Weekend Details Main Button}'>
                 
-                  Buy Tickets
+                  Registrarse
                 
               </a>
             
@@ -417,7 +413,7 @@
                   See what it's all about
                 </h2>
                 <h4>
-                  <a href="">Learn More</a>
+                  <a href="https://www.techstars.com/">Learn More</a>
                 </h4>
               </div>
             </div>
@@ -777,8 +773,8 @@ Es una Institución de Educación Superior (IES), que busca la formación integr
                         </div>        
                           <h5>{{$item->nombre}}<br>{{$item->apellido}}</h5>
 
-                          <@if($item->facebook !=null)
-                            <a href="{{$item->facebook}}" target="_blank">
+                          @if($item->facebook !=null)
+                            <a href="{{  $item->facebook  }}" target="_blank">
                               <i class="fab fa-facebook">&nbsp;</i>
                             </a>
                             @endif

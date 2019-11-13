@@ -14,3 +14,4 @@
 Route::get('/', 'perfilController@mostrarEvento');
 Route::get('/registrar','perfilController@mostrar');
 Route::post('/registrar/ingresar','perfilController@guardar');
+Route::get('/about', 'perfilController@about');

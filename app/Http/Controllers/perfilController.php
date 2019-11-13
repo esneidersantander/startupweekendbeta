@@ -63,6 +63,8 @@ class perfilController extends Controller
 		//$eventos->whereDay('$events', '=', '16');
 		return view ('welcome', compact( 'eventosdia1','eventosdia2','eventosdia3','mentores','sponsores','organizadores'));
 	}
-
+	public function about(){
+		return view ('about');
+	}
 
 }

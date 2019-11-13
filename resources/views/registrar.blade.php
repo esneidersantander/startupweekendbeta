@@ -115,7 +115,7 @@
       </a>
       Start building your future in just 54 hours. Learn, Network, Startup.
       <hr>
-      <a class="learn-more" href="" target="_blank">
+      <a class="learn-more" href="https://www.techstars.com/" target="_blank">
         Learn More
       </a>
     </div>
@@ -172,7 +172,7 @@
 
 
 <li class='link link-startup-weekend/events no-tap up-theme-base-border-left-color'>
-  <a href="" class="no-tap">Events</a>
+  <a href="http://communities.techstars.com/ecuador/quito/startup-weekend/events" class="no-tap">Events</a>
   
 
 </li>
@@ -184,7 +184,7 @@
 
 
 <li class='link link-startup-weekend/organize no-tap up-theme-base-border-left-color'>
-  <a href="" class="no-tap">Organize</a>
+  <a href="https://startupweekend.org/organizers/application" class="no-tap">Organize</a>
   
 
 </li>
@@ -194,7 +194,7 @@
       
 
 
-
+<!-- 
 <li class='link link-programs no-tap up-theme-base-border-left-color'>
   <a href="" class="no-tap">Programs</a>
   
@@ -220,7 +220,7 @@
 
 
 </li>
-
+ -->
     
       
       
@@ -228,7 +228,7 @@
 
 
 <li class='link link-startup-weekend/about no-tap up-theme-base-border-left-color'>
-  <a href="" class="no-tap">About</a>
+  <a href="{{ url('/about') }}" class="no-tap">About</a>
   
 
 </li>
