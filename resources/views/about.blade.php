@@ -164,7 +164,7 @@
         <div class='justified'>
           
             <div class='header__logo program-logo'>
-              <a class='header__logo-image' href='/ecuador/quito/startup-weekend'>
+              <a class='header__logo-image' href='/about'>
                 <!-- < %- @render_partial "logos/#{ @program }" %> -->
                 
                   <img src="/images/logos/sw-logo-black.png" class="logo-swe" />
@@ -2240,38 +2240,6 @@
         </div><!-- .large-13 -->
 
       </div><!-- #footer-digest -->
-
-      <div id="regional-partners">
-        <hr class="spacer--gutter">
-        
-        <div class="small-15 large-13 large-centered columns">
-          <h3>
-            Partners Make it Possible
-            
-          </h3>
-          <div id="partner-scroller" class="scroller-container">
-            <div class="scroller" data-scroller-group-length="3">
-              <ul class="inline-list">
-                
-                <li>
-                  <a href="http://www.go.co/" target="_blank" title=".CO">
-                    <img src="/images/logos/partners/co.png" />
-                  </a>
-                </li>
-                
-                <li>
-                  <a href="http://www.startup.google.com/" target="_blank" title="Google for Startups">
-                    <img src="/images/logos/partners/GoogleForStartupsLarge.png" />
-                  </a>
-                </li>
-                
-              </ul>
-            </div><!-- #partner-scroller -->
-          </div><!-- #scroller-container -->
-        </div><!-- .small-15 -->
-
-        <hr class="spacer--gutter">
-      </div><!-- #regional-partners -->
     </div><!-- #digest-and-partners -->
   </div><!-- .footer-content -->
 </footer>
